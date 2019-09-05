@@ -1,5 +1,5 @@
 ---
-title: "Make Canvas Click and generate a textarea"
+title: "Canvas Click and generate a textarea"
 categories:
   - Canvas
 tags:
