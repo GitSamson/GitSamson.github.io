@@ -1,3 +1,13 @@
+---
+title: "Make Canvas Click and generate a textarea"
+categories:
+  - Canvas
+tags:
+  - Canvas
+  - Javascript
+  - Web 
+---
+
 ```js
 <html>
 <body>
