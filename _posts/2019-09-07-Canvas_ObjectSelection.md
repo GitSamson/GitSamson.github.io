@@ -1,3 +1,13 @@
+---
+title: "Canvas Selectable"
+categories:
+  - HTML5
+tags:
+  - Canvas
+  - EventListener
+  - javascript
+  - HTML5
+---
 
 
 # [demon](https://gitsamson.github.io/BatteryEditor/Test/ClickAndSelect.html)
