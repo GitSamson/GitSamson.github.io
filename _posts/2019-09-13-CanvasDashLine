@@ -1,0 +1,26 @@
+---
+title: "Canvas Set Dash Line type"
+categories:
+  - HTML5
+tags:
+  - Canvas
+  - Canvas event
+  - javascript
+  - HTML5
+  - Dash Line
+---
+
+How to set up dash line type in Canvas?
+
+```js
+
+var canvas = document.querySelector("Canvas");
+var D =  canvas.getContent("2d");
+D.setLineDash([6,6]) //set Dash Line type
+D.rect(20,20,80,80);
+
+
+D.setLineDash([]);//set back to solid line type
+D.rect(80,80,100,100);
+
+```
