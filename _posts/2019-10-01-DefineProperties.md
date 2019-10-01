@@ -18,37 +18,6 @@ In javascript how to get properties by access instance properties?
 </body>
 <script>
 
-  function book () {
-    this.name;
-    this.edition=12;
-  };
-  Object.defineProperties(book, {
-    // _year: {
-    //   value: 2004,
-    //   writable: true // << writable
-    // },
-    edition: {
-      value: 12,
-      writable: true // << writable
-    },
-    year: {
-      get: function () {
-        // << missing return
-        return this._year;
-      },
-      set: function (value) {
-
-        if (value > 2004) {
-          this._year = value;
-          this.edition = this.edition + value - 2004;
-        }
-      }
-    }
-  });
-  book.year = 2016; // << here you used this instead of book
-  console.log(book.edition);
-
-
 function book (e){
   this.x = e;
 
