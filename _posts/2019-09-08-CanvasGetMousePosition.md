@@ -7,10 +7,12 @@ tags:
   - Canvas event
   - javascript
   - HTML5
+  - FullScreen
 ---
 
 ![diagram](https://i.stack.imgur.com/4C3no.png)
-![link](https://blog.csdn.net/qq_17616169/article/details/72833044)
+
+
 
 # There are three types of get position of mouse. 
 
@@ -28,6 +30,9 @@ var MousePosition_Y = e.PageY;
 
 ```
 # How to make canvas full screen?
+
+[link](https://blog.csdn.net/qq_17616169/article/details/72833044)
+
 dont forget body have margin and padding too.
 So you need to add this in <body>:
 ```html
